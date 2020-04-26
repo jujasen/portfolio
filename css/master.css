@@ -79,6 +79,35 @@
     font-weight: 700;
 }
 
+.profile-pic {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.about-intro {
+    padding-left: 30px;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.about-bio {
+    padding: 20px 30px 20px 30px;
+    font-size: 15px;
+}
+
+.about-bio-end {
+    padding: 0px 30px 20px 30px;
+    font-size: 15px;
+}
+
+.about-button {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
 /* MAIN END */
 
 /* FOOTER */
@@ -112,3 +141,5 @@
     text-align: center;
     margin-top: 20px;
 }
+
+/* FOOTER END */
