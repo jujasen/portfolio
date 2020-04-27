@@ -230,3 +230,98 @@
 }
 
 /* FOOTER END */
+
+
+/* MEDIA TAGS */
+
+@media only screen and (min-width: 600px) {
+
+    .logo {
+        width: 150px;
+        margin-top: 30px;
+        margin-left: 30px;
+        display: inline-block;
+    }
+
+    .navbar {
+        float: right;
+        display: inline-block;
+        margin-top: 50px;
+    }
+    
+    .navbar-item {
+        display: inline;
+        margin-right: 40px;
+    }
+
+    .navbar-link {
+        font-size: 18px;
+    }
+
+    .h2 {
+        margin-top: 50px;
+        font-size: 22px;
+    }
+    
+    
+    .button {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    
+    .project-desc {
+        padding: 20px 30px 20px 30px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .profile-pic {
+        width: 30%;
+        margin: 50px 30px 50px 50px;
+        display: inline-block;
+    }
+    
+    .about-intro {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 100px;
+        font-size: 50px;
+    }
+    
+    .about-bio {
+        padding: 20px 30px 20px 30px;
+        font-size: 15px;
+    }
+    
+    .about-bio-end {
+        padding: 0px 30px 20px 30px;
+        font-size: 15px;
+    }
+    
+    .about-button {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    
+
+    .nav-footer {
+        float: none;
+        display: block;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .nav-footer-item {
+        margin-right: 0;
+    }
+
+    .credits {
+        clear: both;
+    }
+
+    .footer-icon {
+        margin-top: 30px;
+    }
+    
+    
+}
