@@ -236,6 +236,8 @@
 
 @media only screen and (min-width: 600px) {
 
+    /* HEADER */
+
     .logo {
         width: 150px;
         margin-top: 30px;
@@ -258,6 +260,8 @@
         font-size: 18px;
     }
 
+    /* GENERAL */
+
     .h2 {
         margin-top: 50px;
         font-size: 22px;
@@ -268,6 +272,8 @@
         margin-top: 15px;
         font-size: 18px;
     }
+
+    /* HOME */
     
     .project-desc {
         padding: 20px 30px 20px 30px;
@@ -279,30 +285,41 @@
         width: 30%;
         margin: 50px 30px 50px 50px;
         display: inline-block;
+        vertical-align: top;
     }
+
+    /* ABOUT */
     
-    .about-intro {
+    .about-media {
         display: inline-block;
         vertical-align: top;
-        margin-top: 100px;
+        width: 500px;
+        margin-left: 50px;
+
+    }
+
+    .about-intro {
+        margin-top: 80px;
         font-size: 50px;
     }
     
     .about-bio {
         padding: 20px 30px 20px 30px;
-        font-size: 15px;
+        font-size: 20px;
     }
     
     .about-bio-end {
         padding: 0px 30px 20px 30px;
-        font-size: 15px;
+        font-size: 25px;
     }
     
     .about-button {
         margin-top: 20px;
         margin-bottom: 50px;
+        margin-left: 30px;
     }
     
+    /* FOOTER */
 
     .nav-footer {
         float: none;
@@ -324,4 +341,33 @@
     }
     
     
+}
+
+@media only screen and (min-width: 600px) and (max-width: 950px) {
+
+    .about-media {
+        display: inline-block;
+        vertical-align: top;
+        width: 300px;
+        margin-left: 20px;
+
+    }
+
+    .about-intro {
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    
+    .about-bio {
+        padding: 20px 30px 20px 30px;
+        font-size: 18px;
+    }
+    
+    .about-bio-end {
+        padding: 0px 30px 20px 30px;
+        font-size: 25px;
+    }
+
+
+
 }
