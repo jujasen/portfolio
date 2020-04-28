@@ -5,7 +5,7 @@
     font-family:'Sen', sans-serif;
     font-size: 20px;
     color: #656565;
- 
+    scroll-behavior: smooth;
 }
 
 /* HEADER */
@@ -64,7 +64,7 @@
     margin-right: auto;
     background-color: #F7F0ED;
     width: 100px;
-    color: #707070;
+    color: #656565;
     padding: 5px;
     font-size: 15px;
     font-weight: 700;
@@ -85,6 +85,10 @@
 .project-desc {
     padding: 20px 30px 20px 30px;
     font-size: 15px;
+}
+
+.button-top {
+    margin-bottom: 50px;
 }
 
 /* about-page */
@@ -187,6 +191,7 @@
     padding: 5px;
     font-size: 15px;
     font-weight: 700;
+    text-transform: lowercase;
 }
 
 .output {
@@ -399,6 +404,55 @@
     .h2-ed {
         margin-top: 75px;
     }
+
+    /* CONTACT */
+
+    .form {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        margin-top: 30px;
+    }
+
+    /*
+    
+    .form-label {
+        display: block;
+        width: 100%;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    .form-input {
+        display: block;
+        width: 100%;
+        font-size: 15px;
+        background-color: #F7F0ED;
+        border: none;
+        padding: 10px;
+        margin: 15px 0px 20px 0px;
+    }
+    
+    .submit-button {
+        border: none;
+        display: block;
+        margin: 30px auto 50px auto;
+        background-color: #F7F0ED;
+        width: 100px;
+        color: #707070;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+    .output {
+        font-size: 12px;
+        margin-top: 5px;
+        color: darkred;
+    }
+    
+    /*
 
 
     
