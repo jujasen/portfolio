@@ -260,6 +260,10 @@
         font-size: 18px;
     }
 
+    .navbar-link:hover {
+        border-bottom: solid 10px #F7F0ED;
+    }
+
     /* GENERAL */
 
     .h2 {
@@ -274,12 +278,32 @@
     }
 
     /* HOME */
+
+    .project-title {
+        display: inline-block;
+        vertical-align: top;
+        margin: 80px 40px 0px 40px;
+        font-size: 50px;
+        width: 31%;
+    }
     
     .project-desc {
-        padding: 20px 30px 20px 30px;
-        font-size: 18px;
-        text-align: center;
+        font-size: 20px;
+        display: inline-block;
+        vertical-align: top;
+        width: 31%;
+        margin-top: 60px;
     }
+
+    .button-container {
+        display: inline-block;
+        vertical-align: top;
+        width: 31%;
+        margin-top: 80px;
+    }
+
+    /* ABOUT */
+
 
     .profile-pic {
         width: 30%;
@@ -288,7 +312,7 @@
         vertical-align: top;
     }
 
-    /* ABOUT */
+
     
     .about-media {
         display: inline-block;
@@ -318,8 +342,71 @@
         margin-bottom: 50px;
         margin-left: 30px;
     }
+
+    /* CV */
+
+    .cv-group {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .cv-space {
+        margin-top: 0;
+    }
+
+    .cv-work {
+        display: inline-block;
+        vertical-align: top;
+        width: 200px;
+        text-align: left;
+    }
+
+    .cv-ed {
+        display: inline-block;
+        vertical-align: top;
+        width: 230px;
+        text-align: left;
+    }
+
+    .cv-skills {
+        display: inline-block;
+        vertical-align: top;
+        width: 170px;
+        text-align: left;
+    }
+
+    .cv-skill-space {
+        margin-left: 80px;
+    }
+
+    .breakline {
+        width: 80%;
+        height: 15px;
+        background-color: #F7F0ED;
+        margin-top: 20px;
+    }
+
+    .breakline-right {
+        float: right;
+    }
+
+    .breakline-right-bottom {
+        float: right;
+        margin-bottom: 80px;
+    }
+
+
+    .h2-ed {
+        margin-top: 75px;
+    }
+
+
     
     /* FOOTER */
+
+    .footer {
+        clear: both;
+    }
 
     .nav-footer {
         float: none;
@@ -368,6 +455,42 @@
         font-size: 25px;
     }
 
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1310px) {
+    .project-title {
+        margin: 80px 20px 0px 20px;
+        font-size: 35px;
+    }
+    
+    .project-desc {
+        font-size: 16px;
+        margin-top: 60px;
+    }
+
+    .button-container {        width: 31%;
+        margin-top: 80px;
+    }
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 740px) {
+    .project-title {
+        margin: 80px 10px 0px 10px;
+        font-size: 30px;
+    }
+    
+    .project-desc {
+        font-size: 15px;
+        margin-top: 60px;
+    }
+
+    .button-container {        width: 31%;
+        margin-top: 80px;
+    }
 
 
 }
