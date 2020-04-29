@@ -4,7 +4,7 @@
     margin: 0;
     font-family:'Sen', sans-serif;
     font-size: 20px;
-    color: #656565;
+    color: #707070;
     scroll-behavior: smooth;
 }
 
@@ -23,12 +23,12 @@
     vertical-align: top;
     text-align: center;
     padding-top: 5px;
-    color: #656565;
+    color: #707070;
 }
 
 .navbar-link {
     text-decoration: none;
-    color: #656565;
+    color: #707070;
     font-size: 15px;
 }
 
@@ -58,16 +58,16 @@
 .button {
     text-decoration: none;
     border: none;
-    display: block;
+    display: table;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     background-color: #F7F0ED;
-    width: 100px;
-    color: #656565;
-    padding: 5px;
+    color: #707070;
+    padding: 5px 10px;
     font-size: 15px;
     font-weight: 700;
+    clear: both;
 }
 
 
@@ -76,6 +76,7 @@
 .project-img {
     width: 100%;
     margin-top: 30px;
+
 }
 
 .project {
@@ -123,6 +124,13 @@
 }
 
 /* cv-page */
+
+.cv-intro {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 .cv {
     margin-top: 30px;
@@ -179,6 +187,10 @@
     border: none;
     padding: 10px;
     margin: 15px 0px 20px 0px;
+}
+
+.form-message {
+    height: 150px;
 }
 
 .submit-button {
@@ -307,6 +319,11 @@
         margin-top: 80px;
     }
 
+    .breakline-home {
+        margin-bottom: 30px;
+    }
+    
+
     /* ABOUT */
 
 
@@ -414,45 +431,6 @@
         width: 40%;
         margin-top: 30px;
     }
-
-    /*
-    
-    .form-label {
-        display: block;
-        width: 100%;
-        font-size: 18px;
-        font-weight: 700;
-    }
-    
-    .form-input {
-        display: block;
-        width: 100%;
-        font-size: 15px;
-        background-color: #F7F0ED;
-        border: none;
-        padding: 10px;
-        margin: 15px 0px 20px 0px;
-    }
-    
-    .submit-button {
-        border: none;
-        display: block;
-        margin: 30px auto 50px auto;
-        background-color: #F7F0ED;
-        width: 100px;
-        color: #707070;
-        padding: 5px;
-        font-size: 15px;
-        font-weight: 700;
-    }
-    
-    .output {
-        font-size: 12px;
-        margin-top: 5px;
-        color: darkred;
-    }
-    
-    /*
 
 
     
