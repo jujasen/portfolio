@@ -4,7 +4,7 @@
     margin: 0;
     font-family:'Sen', sans-serif;
     font-size: 20px;
-    color: #707070;
+    color: #6d6d6d;
     scroll-behavior: smooth;
 }
 
@@ -23,12 +23,12 @@
     vertical-align: top;
     text-align: center;
     padding-top: 5px;
-    color: #707070;
+    color: #6d6d6d;
 }
 
 .navbar-link {
     text-decoration: none;
-    color: #707070;
+    color: #6d6d6d;
     font-size: 15px;
 }
 
@@ -46,7 +46,7 @@
     font-family: jaf-mashine, sans-serif;
     text-align: center;
     margin-top: 50px;
-    color: #707070;
+    color: #6d6d6d;
 }
 
 .h2 {
@@ -63,7 +63,7 @@
     margin-left: auto;
     margin-right: auto;
     background-color: #F7F0ED;
-    color: #707070;
+    color: #6d6d6d;
     padding: 5px 10px;
     font-size: 15px;
     font-weight: 700;
@@ -199,7 +199,7 @@
     margin: 30px auto 50px auto;
     background-color: #F7F0ED;
     width: 100px;
-    color: #707070;
+    color: #6d6d6d;
     padding: 5px;
     font-size: 15px;
     font-weight: 700;
