@@ -10,7 +10,7 @@ const outputMessage = document.querySelector("#output-message");
 // adding eventlistener
 
 submit.addEventListener("click", function(event) {
-    event.preventDefault();
+
     console.log("Form submitted");
 
     //validating form for not being empty
